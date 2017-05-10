@@ -54,6 +54,26 @@ a:hover {
     display: table;
 }
 
+.contato{
+    width: auto;
+    margin: 70px auto;
+    display: table;
+}
+
+.contato > a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.mail:hover{
+    color: #da4338;
+}
+
+.github:hover{
+    color: #53277c;
+}
+
 code,
 pre {
   background: #eee;
