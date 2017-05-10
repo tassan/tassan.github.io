@@ -66,10 +66,12 @@ a:hover {
 
 .mail:hover{
     color: #da4338;
+    box-shadow: none;
 }
 
 .github:hover{
     color: #53277c;
+    box-shadow: none;
 }
 
 code,
