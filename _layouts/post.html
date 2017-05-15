@@ -9,6 +9,9 @@ commets: true
    {{ content }}
  </div>
 
+
 <div class="notecomments">
-    {% include DISQUS.html %}	 
+    {% if page.comments %}
+        {% include DISQUS.html %}	 
+    {% endif %}
 </div>
