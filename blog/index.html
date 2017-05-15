@@ -7,7 +7,7 @@ title: Tassan's Blog
 
 	  {% for post in site.posts %}
 	    <li>
-            <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            {% if page.comments %}<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}#disqus_thread" title="{{ post.title }}">{{ post.title }}</a>{% endif %}
         </li>
 	  {% endfor %}
 	</ul>
