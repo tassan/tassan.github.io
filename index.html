@@ -3,10 +3,13 @@ layout: default
 title: Flávio Tassan
 ---
 <div class="blurb">
-    <h1>Seja bem vindo!</h1>
-    <span>Welcome!</span>
-    <p>Tudo meio branco e <i>vazio</i> por aqui. Mas logo, logo, vai haver muito o que se ler!</p>
-    <span>i know it's a bit empty here, but soon enough it will be full of content!</span>
-    <hr>
-    <span>Flávio Tassan</span>
+    <h1>Latest Post</h1>
+    {% for post in site.posts limit:1 %}
+    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    {% endfor %}
+    <h1>Recent Posts</h1>
+    {% for post in site.posts offset:1 limit:2 %}
+    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    {% endfor %}
 </div>
+
