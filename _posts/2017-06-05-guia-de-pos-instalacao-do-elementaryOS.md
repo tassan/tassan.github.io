@@ -27,6 +27,7 @@ O elementaryOS, por padrão, não vem com a habilidade de instalar softwares por
 Geralmente, usando "Windows + Espaço", a janela de aplicativos vai ser aberta. Mas é possível mudar isso, para utilizar apenas o botão "Windows".
 
 `gsettings set org.gnome.mutter overlay-key "'Super_L'"`
+
 `gsettings set org.pantheon.desktop.gala.behavior overlay-action "'wingpanel --toggle-indicator=app-launcher'"`
 
 ### 5. Instalar o TLP
