@@ -4,7 +4,7 @@ title: "Guia de pós-instalação do elementaryOS"
 date: 2017-06-05
 ---
 
-Depois de decidir instalar o elementaryOS em dual boot no meu desktop - e testá-lo por alguns dias - decidi usá-lo como sistema principal para desenvolvimento, usando meu notebook. Deixando o Windows 10 somente para jogos no meu desktop. Apósa instalação, que demorou mais do que eu esperava, talvez pela idade do meu notebook; voltei a alguns dos vários links com dicas sobre a pós-instalação deste SO.
+Depois de decidir instalar o elementaryOS em dual boot no meu desktop - e testá-lo por alguns dias - decidi usá-lo como sistema principal para desenvolvimento, usando meu notebook. Deixando o Windows 10 somente para jogos no meu desktop. Após a instalação, que demorou mais do que eu esperava, talvez pela idade do meu notebook; voltei a alguns dos vários links com dicas sobre a pós-instalação deste SO. E decidi reunir tudo em um único guia, tanto para eu saber onde procurar da próxima e ajudar quem mais procurar sobre o elementaryOS.
 
 ### 1. Atualizar o Sistema
 
