@@ -145,3 +145,12 @@ pre {
 .notecomments {
   margin-top: 50px;
 }
+
+.cv {
+    font-size: 0.9em;
+}
+
+.cv > p {
+    padding: 0;
+    margin: 0;
+}
