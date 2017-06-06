@@ -154,3 +154,7 @@ pre {
     padding: 0;
     margin: 0;
 }
+
+.cv > ul{
+    list-style-type: none;
+}
