@@ -68,5 +68,5 @@ Se tiver gostado do post, compartilhe e comente quais os programas são essencia
 
 **Referências**
 
-* [Things to do after installing elementary OS 0.4.1 Loki](https://medium.com/go-elementary/things-to-do-after-installing-elementary-os-0-4-1-loki-7d5516e75aff)
+* <strike>[Things to do after installing elementary OS 0.4.1 Loki](https://medium.com/go-elementary/things-to-do-after-installing-elementary-os-0-4-1-loki-7d5516e75aff)</strike>
 * [11 Things To Do After Installing Elementary OS 0.4 Loki](https://itsfoss.com/things-to-do-after-installing-elementary-os-loki/)
