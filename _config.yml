@@ -3,8 +3,3 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 gems:
   - jekyll-seo-tag
-languages: ["pt-br", "en"]
-defaultLang: pt-br
-languageNames:
-  pt-br: Brazilian Portuguese
-  en: English
