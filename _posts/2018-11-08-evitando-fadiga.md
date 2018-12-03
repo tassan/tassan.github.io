@@ -18,8 +18,8 @@ Uma tabela com dados *pivotada**, exibindo colunas que representam fornecedores,
 Esta tabela deveria funcionar da seguinte forma:
 
  1. Cada valor **selecionado** pelo usuário deve ser marcado como vencedor ao clique de um botão.
- 2. O valor vencedor deve ser marcado de <span style="color:blue">*verde*</span>
- 3. O menor valor deve ser marcado de <span style="color:lightred"> *vermelho claro*</span>
+ 2. O valor vencedor deve ser marcado de <span style="color:green">*verde*</span>
+ 3. O menor valor deve ser marcado de <span style="color:red"> *vermelho claro*</span>
 
 # A situação encontrada
 
