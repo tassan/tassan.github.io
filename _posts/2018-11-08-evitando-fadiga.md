@@ -8,7 +8,7 @@ Att."
 
 No meu caso, X = A legenda de um DataGridView (aka tabela no windows form) não estava funcionando. A principio o problema parecia simples:
 
-Uma tabela com dados *pivotada**, exibindo colunas que representam fornecedores, linhas para cada produto e os seus valores:
+Uma tabela com dados *pivotada*, exibindo colunas que representam fornecedores, linhas para cada produto e os seus valores:
 
 | Produto  | Quantidade | Fornecedor A | Fornecedor B| Fornecedor C |
 |--|--|--|--|--|
@@ -25,7 +25,7 @@ Esta tabela deveria funcionar da seguinte forma:
 
 Explicado o funcionamento, vamos ao problema que encontrei; o código que preenchia esta tabela simplesmente **não funcionava** de acordo com o que era proposto.
 
-Apesar das boas intenções do programador anterior, o DataGridView padrão do Windows Forms, não dava um suporte adequado à forma com que ele deseja expor os dados - usando uma tabela *pivotada**. Sendo assim, o  código fazia o seguinte:
+Apesar das boas intenções do programador anterior, o DataGridView padrão do Windows Forms, não dava um suporte adequado à forma com que ele deseja expor os dados - usando uma tabela *pivotada*. Sendo assim, o  código fazia o seguinte:
 
  1. Buscava os dados do SQL
  2. Criava um DataTable personalizado
@@ -68,6 +68,7 @@ Falarei mais sobre isto a seguir, que foi um dos motivos de escrever esta epopei
 ### Passo 2: Adeus Tabela Pivotada
 
 Acabar com o uso da tabela *pivotada* foi uma das medidas que tomei,  após verificar com o usuário se aquela forma de exibição era importante ou não, - *spoiler alert: "tanto faz, faça funcionar"* foi a resposta - modifiquei a forma como seria exibido aqueles dados:
+
 | Produto | Quantidade | Fornecedor | Valor | Vencedor |
 |--|--|--|--|--|
 |Produto A| 10 | Fonecedor A | R$ 50 | True/False |
@@ -76,6 +77,7 @@ Acabar com o uso da tabela *pivotada* foi uma das medidas que tomei,  após veri
 |Produto B| 5 | Fonecedor A | R$ 6 | True/False |
 |Produto B| 5 | Fonecedor B | R$ 5,50 | True/False |
 |Produto B| 5 | Fonecedor C | R$ 2,50 | True/False |
+
 
 ### Passo 3: As vantagens do código aberto
 
