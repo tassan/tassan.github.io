@@ -96,4 +96,4 @@ E o resultado final foi esse:
 ![Novo DataGridView](https://i.imgur.com/JjyBH4F.png)
 # Concluindo
 
-Apesar deste post ter ficado maior do que imaginava, fiquei orgulhoso do que consegui fazer. Mas é muito bom poder expressar essa coisa incrível que é a comunidade *open source*, onde tenho acesso ao código de outro desenvolvedor que provavelmente passou por problemas parecidos com os meus e ainda posso adaptá-lo ao meu *mundo* e compartilhar com outros. :)
+Apesar deste post ter ficado maior do que imaginava, fiquei orgulhoso do que consegui fazer. É muito bom poder expressar essa coisa incrível que é a comunidade *open source*, onde tenho acesso ao código de outro desenvolvedor que provavelmente passou por problemas parecidos com os meus e ainda posso adaptá-lo ao meu *mundo* e compartilhar com outros. :)
