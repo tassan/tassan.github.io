@@ -1,5 +1,9 @@
 name: Flávio Tassan
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
+highlighter: rouge
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+feed:
+  path: atom.xml
