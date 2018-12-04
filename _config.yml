@@ -1,5 +1,5 @@
 name: Flávio Tassan
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
-gems:
+plugins:
   - jekyll-seo-tag
