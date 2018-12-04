@@ -1,4 +1,8 @@
-# Evitando a fadiga
+---
+layout: post
+title: "Evitando a fadiga"
+date: 2018-11-08
+---
 
 As vezes você se depara com uma situação como esta:
 

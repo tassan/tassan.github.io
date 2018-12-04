@@ -5,11 +5,11 @@ title: Flávio Tassan
 <div class="blurb">
     <h1>Última postagem</h1>
     {% for post in site.posts limit:1 %}
-    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br>
     {% endfor %}
     <h1>Postagens recentes</h1>
     {% for post in site.posts offset:1 limit:2 %}
-    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br>
     {% endfor %}
 </div>
 
