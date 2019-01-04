@@ -26,12 +26,13 @@ layout: default
         </div>
     </div>
     <section class="section">
-        {% for post in site.posts %}
+        {% for post in site.posts offset:1 limit:3 %}
             <div class="tile">
                 <h1 class="title is-centered">
                     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                 </h1>
-                <span>{{ post.date | date_to_string }}</span>
+                <br />
+                <span class="tag is-white">{{ post.date | date_to_string }}</span>
             </div>                  
         {% endfor %}
     </section>

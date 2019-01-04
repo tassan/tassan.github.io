@@ -1,4 +1,6 @@
 @import "main.css";
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i);
+
 
 html {
     background-color: #070707;

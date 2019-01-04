@@ -4,6 +4,15 @@ layout: default
 <section class="hero">
     <div class="hero-body">
         <h1 class="title">{{ page.title }}</h1>
+        <span>
+				<a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{page.id}}_identifier">Comentários</a>
+        </span> |
+        <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Min de Leitura
+        <h2 class="date">
+            <info datetime="{{ page.date }}">
+            {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+            </info>
+        </h2>
     </div>
 </section>
 
@@ -13,4 +22,6 @@ layout: default
         {{ content }}
     </div>
 </section>
-
+<section>
+    {% include disqus.html %}
+</section>
