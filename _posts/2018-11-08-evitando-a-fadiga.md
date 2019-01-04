@@ -45,25 +45,26 @@ Era um código macarrão.
 
 Pensando em evitar problemas futuros e de manutenção nesta aplicação, troquei a ligação direta dos valores do SQL, que vinham através de BindingSources e TableAdapters no DataGridView, pelo uso de objetos de uma classe que representasse aqueles dados.
 
-    public class ItemCotacaoMapa
-        {
-            public string Descricao { get; set; }
-            public string Unidade { get; set; }
-            public decimal Quantidade { get; set; }
-            public Fornecedor Fornecedor { get; set; }
-            public decimal Valor { get; set; }
-            public bool Vencedor { get; set; }
-            public int CodigoItem { get; set; }
-            
-            public ItemCotacaoMapa() {}
-     
-            public override string ToString()
-            {
-                var item = string.Format("Item: {0}", Descricao);
-                return item;
-            }
-     
-        }
+{% highlight csharp %}
+public class ItemCotacaoMapa 
+{
+    public string Descricao { get; set; }
+    public string Unidade { get; set; }
+    public decimal Quantidade { get; set; }
+    public Fornecedor Fornecedor { get; set; }
+    public decimal Valor { get; set; }
+    public bool Vencedor { get; set; }
+    public int CodigoItem { get; set; }
+    
+    public ItemCotacaoMapa() {}
+
+    public override string ToString()
+    {
+        var item = string.Format("Item: {0}", Descricao);
+        return item;
+    }
+}
+{% endhighlight %}
 
 Isto me gerou uma outra situação. Um DataGridView não aceita objetos de uma classe como dados. O que me levou a descobrir uma biblioteca de extensão para DataGridViews que fazia com que ela aceitasse objetos como dados. (ps. eu havia descoberto este projeto antes de começar a mudança =P) 
 
