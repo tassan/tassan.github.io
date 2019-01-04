@@ -19,6 +19,7 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-admin", group: :jekyll_plugins
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-bulma"
   gem "jemoji"

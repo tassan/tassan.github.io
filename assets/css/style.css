@@ -1,0 +1,41 @@
+---
+---
+@import "main.css";
+
+html {
+    background-color: #070707;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%; }
+
+body {
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    color: #e0ca3c;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900;
+}
+
+div > h1 {
+    color: white;
+}
+
+/* pre {
+    color: #2d3047;
+}
+
+.highlighter-rouge .highlight {
+    background: whitesmoke;
+}
+
+blockquote {
+    color: #2d3047;
+} */

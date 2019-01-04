@@ -25,7 +25,9 @@ github_username:  tassan
 # Build settings
 markdown: kramdown
 theme: jekyll-bulma
+highlighter: rouge
 plugins:
+  - jekyll-admin
   - jekyll-seo-tag
   - jekyll-feed
   - jemoji
