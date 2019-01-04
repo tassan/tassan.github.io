@@ -28,7 +28,7 @@ theme: jekyll-bulma
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
