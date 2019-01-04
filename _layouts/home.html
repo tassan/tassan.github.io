@@ -4,21 +4,37 @@ layout: default
 
 <main>
     <div class="container">
-            <div class="columns">
-                    <div class="column is-one-fifth">
+        <div class="columns">
+            <div class="column is-one-fifth">
+                <div class="tile is-vertical">
                         <img src="https://scontent.fgvr1-1.fna.fbcdn.net/v/t1.0-9/46445125_2062578330475007_8932686472713076736_n.jpg?_nc_cat=111&_nc_ht=scontent.fgvr1-1.fna&oh=2ea6fb3ed23f09f98d705356e7671e4e&oe=5CCE0A7E" alt="profile pic">
-                    </div>
-                    <div class="column">
-                        <p>Olá! Meu nome é Flávio Tassan.
-                            Brasileiro &#x1F1E7;&#x1F1F7;, nativo de Governador Valadares, no leste mineiro.
-                            Oficialmente um desenvolvedor de software, extra-oficialmente: alguém procurando ir além do código para solucionar problemas, enquanto procura tempo para concluir todos os jogos que tem para jogar e os livros que tem para ler. </p>
-                            <a href="/blog/">Blog</a>
-                            <!-- <a href="https://twitter.com/ftassan" target="_blank">:bird:</a>
-                            <a href="mailto:ftassan@outlook.com">:email:</a>
-                            <a href="https://github.com/tassan" target="_blank">:octocat:</a> -->
-                    </div>
                 </div>
+            </div>
+            <div class="column">
+                <div class="tile">
+                    <p>Olá! Meu nome é Flávio Tassan. &#x1F432;
+                        Brasileiro &#x1F1E7;&#x1F1F7;, nativo de Governador Valadares, no leste mineiro.
+                        Oficialmente um desenvolvedor de software, extra-oficialmente: alguém procurando ir além do código para solucionar problemas, enquanto procura tempo para concluir todos os jogos que tem para jogar e os livros que tem para ler. </p>
+                        <!-- <a href="https://twitter.com/ftassan" target="_blank">:bird:</a>
+                        <a href="mailto:ftassan@outlook.com">:email:</a>
+                        <a href="https://github.com/tassan" target="_blank">:octocat:</a> -->
+                </div>
+                <div>
+                    <a href="/blog/" class="is-left">Blog</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <section class="section">
+        {% for post in site.posts %}
+            <div class="tile">
+                <h1 class="title is-centered">
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </h1>
+                <span>{{ post.date | date_to_string }}</span>
+            </div>                  
+        {% endfor %}
+    </section>
 </main>
 
-{{ content }} 
+<!-- {{ content }}  -->
