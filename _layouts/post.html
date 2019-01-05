@@ -16,6 +16,7 @@ layout: default
     </div>
 </section>
 
+<<<<<<< HEAD
 <br />
 <section class="post">
     <div class="container">
@@ -25,3 +26,34 @@ layout: default
 <section>
     {% include disqus.html %}
 </section>
+=======
+<div class="notes">
+		<div class="note single">
+			<h1 class="title">{{ page.title }}</h1>
+			<span>
+				<a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{page.id}}_identifier">0 Comentários</a>
+			</span> |
+			<span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Min de Leitura
+			<h2 class="date"><info datetime="{{ page.date }}">
+				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+			</info></h2>
+			
+			<br>
+			<!-- Post content -->
+			<div class="notebody">
+				{{ content }}
+			</div>
+			<!-- Post info -->
+			<div class="noteinfo">
+			<!-- include some categories and tags maybe? -->
+			</div>
+
+			<hr>
+
+			<!-- Post comments -->
+			<div class="notecomments">
+				{% include disqus.html %}	 
+			</div>
+		</div><!-- / .note .single -->
+</div><!-- /.notes -->
+>>>>>>> 0ff244355e43f88c5fbfd6a20b97d364d17f6981
