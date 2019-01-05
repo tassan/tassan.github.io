@@ -7,17 +7,78 @@ layout: default
         <div class="columns">
             <div class="column is-one-fifth">
                 <div class="tile is-vertical">
-                        <img src="https://scontent.fgvr1-1.fna.fbcdn.net/v/t1.0-9/46445125_2062578330475007_8932686472713076736_n.jpg?_nc_cat=111&_nc_ht=scontent.fgvr1-1.fna&oh=2ea6fb3ed23f09f98d705356e7671e4e&oe=5CCE0A7E" alt="profile pic">
+                    <figure class="image">
+                            <img class="is-rounded" src="https://scontent.fgvr1-1.fna.fbcdn.net/v/t1.0-9/46445125_2062578330475007_8932686472713076736_n.jpg?_nc_cat=111&_nc_ht=scontent.fgvr1-1.fna&oh=2ea6fb3ed23f09f98d705356e7671e4e&oe=5CCE0A7E" alt="profile pic">
+                    </figure>
                 </div>
             </div>
             <div class="column">
-                <div class="tile">
-                    <p>Olá! Meu nome é Flávio Tassan. &#x1F432;
-                        Brasileiro &#x1F1E7;&#x1F1F7;, nativo de Governador Valadares, no leste mineiro.
-                        Oficialmente um desenvolvedor de software, extra-oficialmente: alguém procurando ir além do código para solucionar problemas, enquanto procura tempo para concluir todos os jogos que tem para jogar e os livros que tem para ler. </p>
-                        <!-- <a href="https://twitter.com/ftassan" target="_blank">:bird:</a>
-                        <a href="mailto:ftassan@outlook.com">:email:</a>
-                        <a href="https://github.com/tassan" target="_blank">:octocat:</a> -->
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-vertical">
+                        <articale class="tile is-child box" style="font-size: 1.4em">
+                            <p class="title">Hello there!</p>
+                            <p>My name is <strong>Flávio Tassan</strong>!<small style="font-size: 0.8em"> but you can call me Tassan &#x1F432;</small>
+                                    <br>I'm a Brazilian &#x1F1E7;&#x1F1F7; software developer &#x1F468;&#x200D;&#x1F4BB; with knowledge in C# and .NET Core/Framework &#x1F916;.
+                                    I'm also in love with Python and Django! &#x1F40D;
+                            </p>
+                        </articale>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box is-primary">
+                            <p class="title">
+                                Where's Tassan?
+                            </p>
+                            <p class="subtitle">
+                                Currently living in <a href="https://goo.gl/maps/MG2nNnMJLC22">Governador Valadares, Minas Gerais</a>. &#x1F3E0; <br>
+                                And working at <a href="https://www.univale.br/capa/">UNIVALE</a> &#x1F4BC;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                            <p class="title">How to Contact me?</p>
+                            <p class="subtitle">Be free to send a smoke signal on <a href="https://twitter.com/ftassan">twitter</a> &#x1F426; or <a href="mailto:ftassan@outlook.com">mail me</a> &#x1F4E7; and you can always check my code at <a href="https://github.com/tassan">github </a>:octocat:</p>
+                            <small>I'm always looking for a freelancer contract, so hurry up and get in touch with me &#x1F64A; </small>
+                        </article>
+                    </div>
+                </div>
+                <section class="section">
+                    <span style="color:#e0ca3c;">LATEST POSTS</span>
+                    <hr>
+                    {% for post in site.posts offset:1 limit:3 %}
+                        <div class="tile">
+                            <h1 class="title is-centered">
+                                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                            </h1>
+                            <br />
+                            <small class="">{{ post.date | date_to_string }}</small>
+                        </div>                  
+                    {% endfor %}
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+
+                <!-- <div class="tile">
+                    <article>
+                        <p>Hello there! My name is Flávio Tassan!
+                                <small> but you can call me Tassan &#x1F432;</small>
+                                I'm a Brazilian &#x1F1E7;&#x1F1F7; developer with knowledge in C# and .NET Core/Framework.
+                                I'm also in love with Python and Django! 
+                            </p>
+                                <a href="https://twitter.com/ftassan" target="_blank">:bird:</a>
+                                <a href="mailto:ftassan@outlook.com">:email:</a>
+                                <a href="https://github.com/tassan" target="_blank">:octocat:</a>
+                    </article>
+                </div>
+                <div class="tile is-danger">
+                    <article class="is-text is-primary">
+                        Currently living in Governador Valadares, Minas Gerais.
+                        And working at <a href="https:\\univale.br">UNIVALE</a>
+                    </article>
                 </div>
                 <div>
                     <a href="/blog/" class="is-left">Blog</a>
@@ -25,17 +86,19 @@ layout: default
             </div>
         </div>
     </div>
+
     <section class="section">
+        <span style="color:#e0ca3c;">LATEST POSTS</span>
+        <hr>
         {% for post in site.posts offset:1 limit:3 %}
             <div class="tile">
                 <h1 class="title is-centered">
                     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                 </h1>
                 <br />
-                <span class="tag is-white">{{ post.date | date_to_string }}</span>
+                <small class="">{{ post.date | date_to_string }}</small>
             </div>                  
         {% endfor %}
-    </section>
-</main>
+    </section> -->
 
 <!-- {{ content }}  -->

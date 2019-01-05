@@ -13,7 +13,8 @@ html {
     text-size-adjust: 100%; }
 
 body {
-    color: whitesmoke;
+    background-color: #070707;
+    color: white;
     /* font-family: 'IBM Plex Mono', monospace; */
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -25,6 +26,15 @@ a {
 }
 
 a:hover {
+    color: #1c1c72;
+    background-color: #e1efe6;
+}
+
+.clean-link {
+    text-decoration: none;
+}
+
+.clean-link:hover {
     color: #1c1c72;
     background-color: #e1efe6;
 }
