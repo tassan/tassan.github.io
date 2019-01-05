@@ -1,5 +1,4 @@
 @import "main.css";
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i);
 
 
 html {
@@ -15,18 +14,23 @@ html {
 
 body {
     color: whitesmoke;
-    font-family: 'IBM Plex Mono', monospace;
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 a {
     color: #e0ca3c;
-    /* font-family: 'IBM Plex Sans', sans-serif; */
-    font-weight: 900;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
 }
 
 a:hover {
     color: #1c1c72;
     background-color: #e1efe6;
+}
+
+.yellow-line {
+    border-color: #e0ca3c;
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
