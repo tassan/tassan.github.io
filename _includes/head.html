@@ -28,5 +28,21 @@
             title="{{ site.title }}"
             href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <script src="{{ '/assets/js/dropdown.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Flávio Tassan",
+        "url": "http://tassan.me",
+        "jobTitle": "Web developer",
+        "image": "https://github.com/tassan.png",
+        "sameAs": [
+          "https://github.com/tassan",
+          "https://twitter.com/ftassan",
+          "https://www.linkedin.com/in/fl%C3%A1vio-tassan/"
+        ]
+      }
+      </script>
+      
   </head>
   
