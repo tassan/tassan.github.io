@@ -2,7 +2,7 @@
 layout: post
 title: "Evitando a fadiga"
 date: 2018-11-08
-categories: csharp development
+categories: csharp development portugues
 tags: [open source, csharp, development]
 ---
 

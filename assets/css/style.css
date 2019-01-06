@@ -26,8 +26,9 @@ a {
 }
 
 a:hover {
-    color: #1c1c72;
-    background-color: #e1efe6;
+    color: black;
+    background-color: #e0ca3c;
+    font-weight: 700;
 }
 
 .clean-link {
@@ -35,8 +36,8 @@ a:hover {
 }
 
 .clean-link:hover {
-    color: #1c1c72;
-    background-color: #e1efe6;
+    color: black;
+    background-color: #e0ca3c;
 }
 
 .yellow-line {
