@@ -78,3 +78,26 @@ strong {
 .content figure {
     text-align: left;
 }
+
+/* footer {
+    background-clip: #070707;
+} */
+
+.footer-centered {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #e0ca3c;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+::selection {
+    background: #e0ca3c; /* WebKit/Blink Browsers */
+    color: black;
+  }
+  ::-moz-selection {
+    background: #e0ca3c; /* Gecko Browsers */
+    color: black;
+  }
