@@ -10,7 +10,7 @@ O [Pygame](https://www.pygame.org/wiki/about) é uma biblioteca de código abert
 
 ### Configurando o ambiente
 
->Para quem usa Windows como eu usei nesse processo, recomendo instalar o [CMDER](https://cmder.net/) ele é um terminal aprimorado para o Windows. Nele você consegue utilizar algumas comandos que estão disponíveis no Linux. Recomendo o uso do mesmo durante o WTTD.
+>Para quem usa Windows como eu usei nesse processo, recomendo instalar o [CMDER](https://cmder.net/) ele é um terminal aprimorado para o Windows. Nele você consegue utilizar algumas comandos que estão disponíveis no Linux. 
 
 Primeiramente vamos criar um diretório para trabalhar nosso jogo:
 
