@@ -1,0 +1,17 @@
+:root {
+  --background-red: #2C0000;
+  --shinku-red: #F20505;
+  --jogi-white: #F2F2F2;
+  --pinku: #F23064;
+  --classic-red: #8C0303;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+}
+
+body {
+  background: var(--background-red);
+}
