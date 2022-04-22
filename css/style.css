@@ -47,8 +47,6 @@ footer {
 }
 
 .targets {
-  width: auto;
-  height: 1080px;
   display: inline-flex;
   position: relative;
   margin-left: 1rem;
@@ -92,7 +90,7 @@ footer {
   color: var(--pinku);
 }
 
-.game {
+.text-game {
   cursor: url('./images/game-cursor.png');
 }
 
