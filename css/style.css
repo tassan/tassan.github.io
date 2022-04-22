@@ -47,6 +47,8 @@ footer {
 }
 
 .targets {
+  width: auto;
+  height: 1080px;
   display: inline-flex;
   position: relative;
   margin-left: 1rem;
@@ -83,6 +85,15 @@ footer {
 
 .text-game {
   font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+}
+
+.text-game > span {
+  color: var(--pinku);
+}
+
+.game {
+  cursor: url('./images/game-cursor.png');
 }
 
 .text-bar {
