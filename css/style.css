@@ -53,7 +53,7 @@ footer {
 }
 
 .target {
-  width: auto;
+  width: 50%;
   height: auto;
   margin-top: 4rem;
   margin-right: 2rem;
@@ -91,11 +91,11 @@ footer {
 }
 
 .text-game {
-  cursor: url('./images/game-cursor.svg');
+  cursor: url(https://i.imgur.com/59On8vV.png);
 }
 
 .game {
-  cursor: url('./images/game-cursor.svg');
+  cursor: url(https://i.imgur.com/59On8vV.png);
 }
 
 .text-bar {
