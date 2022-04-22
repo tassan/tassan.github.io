@@ -47,7 +47,7 @@ footer {
 }
 
 .targets {
-  display: flex;
+  display: inline-flex;
   position: relative;
   margin-left: 1rem;
 }
