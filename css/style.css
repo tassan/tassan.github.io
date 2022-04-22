@@ -4,14 +4,64 @@
   --jogi-white: #F2F2F2;
   --pinku: #F23064;
   --classic-red: #8C0303;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
   @media (max-width: 1080px) {
     font-size: 93.75%;
-  }
+  }  
 }
 
 body {
   background: var(--background-red);
+  --webkit-font-smoothing: antialiased;
+  color: var(--jogi-white);
+}
+
+main {
+  align-items: center;
+}
+
+footer {
+  font-size: 0.8rem;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.message {
+  text-align: center;
+}
+
+.dumbass {
+  text-decoration: none;
+  color: var(--shinku-red);
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 1rem;
+}
+
+.loser{
+  padding-left: 10rem;
+}
+
+.text-classic {
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: var(--shinku-red);
+}
+
+.text-game {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-bar {
+  font-family: 'Libre Barcode 39', cursive;
+}
+
+.text-bar-sub {
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.text-jap {
+  font-family: 'Noto Sans JP', sans-serif;
 }
