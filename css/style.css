@@ -28,6 +28,7 @@ footer {
   bottom: 0;
   position: fixed;
   width: 100%;
+  background-color: #F23064;
 }
 
 .message {
@@ -36,13 +37,39 @@ footer {
 
 .dumbass {
   text-decoration: none;
-  color: var(--shinku-red);
+  color: var(--jogi-white);
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 1rem;
 }
 
 .loser{
   padding-left: 10rem;
+}
+
+.targets {
+  display: flex;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.target {
+  width: auto;
+  height: auto;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+}
+
+.target > img {
+  border-radius: 25%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  transition: 0.8s;
+}
+
+.target > img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
 }
 
 .text-classic {
