@@ -29,6 +29,7 @@ footer {
   position: fixed;
   width: 100%;
   background-color: #F23064;
+  margin-top: 1rem;
 }
 
 .message {
@@ -44,6 +45,7 @@ footer {
 
 .loser{
   padding-left: 10rem;
+  font-size: 1rem;
 }
 
 .targets {
@@ -86,8 +88,15 @@ footer {
   font-size: 3rem;
 }
 
-.text-game > span {
+
+.domain {
   color: var(--pinku);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.domain:hover {
+  color: var(--shinku-red);
 }
 
 .text-game {
