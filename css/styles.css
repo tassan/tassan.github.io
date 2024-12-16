@@ -1,9 +1,7 @@
-/* styles.css */
-
-/* General styles */
+/* General Styles */
 body {
   background-color: #181631; /* Dark Purple */
-  color: #a8e600; /* Neon Green for text */
+  color: #a8e600; /* Neon Green */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,58 +9,67 @@ body {
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   background-color: #6b4e7c; /* Mid Purple */
-  color: #a8e600; /* Neon Green */
+  color: #a8e600;
+  border: 2px solid #a8e600;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 3em;
+  margin: 0;
 }
 
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
+#subheader {
+  text-align: center;
+  padding: 20px;
+  background-color: #3d6b4a; /* Dark Green */
+  border: 2px solid #a8e600;
+  margin: 10px auto;
+  color: #ffffff;
+}
+
+#subheader h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   padding: 20px;
 }
 
 section#posts {
-  background-color: #3d6b4a; /* Dark Green */
-  border: 2px solid #a8e600; /* Neon Green border */
-  border-radius: 10px;
-  padding: 20px;
-  color: #ffffff; /* White text for better readability */
-}
-
-section#posts h2 {
-  color: #a8e600; /* Neon Green */
-}
-
-article {
-  background-color: #6b4e7c; /* Mid Purple for post background */
-  padding: 15px;
+  width: 300px;
+  background-color: #6b4e7c; /* Mid Purple */
+  border: 2px solid #a8e600;
   border-radius: 8px;
-  margin-bottom: 20px;
-  color: #ffffff; /* White text */
+  padding: 15px;
+  color: #ffffff;
+}
+
+section#posts h3 {
+  margin-top: 0;
+  color: #a8e600;
+}
+
+#post-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+#post-container li {
+  padding: 5px 0;
+  border-bottom: 1px solid #a8e600;
 }
 
 footer {
   text-align: center;
   padding: 10px;
   margin-top: 20px;
-  background-color: #9c5fd3; /* Light Purple */
-  color: #ffffff; /* White text */
-}
-
-a {
-  color: #a8e600; /* Neon Green links */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #9c5fd3; /* Light Purple for hover */
+  background-color: #3d6b4a; /* Dark Green */
+  color: #ffffff;
 }
