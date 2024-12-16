@@ -1,8 +1,9 @@
 /* styles.css */
 
+/* General styles */
 body {
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* White text */
+  background-color: #181631; /* Dark Purple */
+  color: #a8e600; /* Neon Green for text */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,8 +12,8 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #2c2c54; /* Purple shade */
-  color: #a8ff60; /* Neon green */
+  background-color: #6b4e7c; /* Mid Purple */
+  color: #a8e600; /* Neon Green */
 }
 
 header h1 {
@@ -29,29 +30,39 @@ main {
 }
 
 section#posts {
-  background-color: #1e1e2e; /* Slightly lighter black */
-  border: 2px solid #a8ff60; /* Neon green border */
+  background-color: #3d6b4a; /* Dark Green */
+  border: 2px solid #a8e600; /* Neon Green border */
   border-radius: 10px;
   padding: 20px;
+  color: #ffffff; /* White text for better readability */
 }
 
 section#posts h2 {
-  color: #a8ff60;
+  color: #a8e600; /* Neon Green */
+}
+
+article {
+  background-color: #6b4e7c; /* Mid Purple for post background */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #ffffff; /* White text */
 }
 
 footer {
   text-align: center;
   padding: 10px;
   margin-top: 20px;
-  background-color: #2c2c54; /* Purple shade */
-  color: #ffffff;
+  background-color: #9c5fd3; /* Light Purple */
+  color: #ffffff; /* White text */
 }
 
 a {
-  color: #a8ff60;
+  color: #a8e600; /* Neon Green links */
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #9c5fd3; /* Light Purple for hover */
 }
