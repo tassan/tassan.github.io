@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   const postContainer = document.getElementById("post-container");
 
   try {
-    // Fetch list of markdown posts dynamically
-    const posts = fetchPosts();
+    // Fetch the list of posts from posts.json
+    const posts = await fetchPosts();
 
     for (const post of posts) {
       const markdown = await fetchMarkdown(post);
@@ -28,12 +28,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-// Function to dynamically read markdown files from the /posts directory
-function fetchPosts() {
-  const posts = [];
-  const req = require.context("../posts", false, /\.md$/);
-  req.keys().forEach((key) => posts.push(req(key)));
-  return posts;
+// Fetch the list of markdown files from posts.json
+async function fetchPosts() {
+  const response = await fetch("posts.json");
+  if (!response.ok) throw new Error("Failed to fetch posts.json");
+  return await response.json(); // Returns the array of markdown file paths
 }
 
 // Fetch and return markdown content as text
