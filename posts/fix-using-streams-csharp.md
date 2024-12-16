@@ -1,6 +1,10 @@
-### How to Fix Issues with `using` and Streams in C#
+---
+title: How to Fix Issues with `using` and Streams in C#
+date: 2024-12-16
+author: Tassan
+---
 
-Date: 12-16-2024
+### How to Fix Issues with `using` and Streams in C#
 
 When working with streams in C#, such as `MemoryStream` or `FileStream`, it’s important to handle their lifecycle correctly. Streams implement the `IDisposable` interface, meaning they need to be disposed of to release unmanaged resources. Using the `using` statement is a common practice to ensure proper disposal. However, there are scenarios where disposing of a stream prematurely (like inside a `using` block) can lead to issues, especially if the stream needs to remain open for reuse or be returned to the caller.
 
