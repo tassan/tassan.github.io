@@ -44,7 +44,7 @@ tassan.github.io/
 
 All texts and content in this repository are protected under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** (CC BY-NC-ND 4.0). See the `LICENSE` file for details.
 
-For inquiries about usage, contact me at **[your_email@example.com]**.
+For inquiries about usage, contact me at **[ftassan@pm.me]**.
 
 ---
 
