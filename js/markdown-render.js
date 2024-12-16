@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     // List of markdown posts to render (you can make this dynamic or fetch from an API)
-    const posts = ["posts/example.md"];
+    const posts = fetchPosts();
 
     for (const post of posts) {
       const response = await fetch(post);
@@ -23,6 +23,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     postContainer.textContent = "Failed to load posts.";
   }
 });
+
+// Read /posts directory and fetch all markdown files
+function fetchPosts() {
+  const posts = [];
+  const req = require.context("../posts", false, /\.md$/);
+  req.keys().forEach((key) => posts.push(req(key)));
+  return posts;
+}
 
 // Simple Markdown to HTML converter (you can use libraries like marked.js or showdown.js for more features)
 function convertMarkdownToHtml(markdown) {
