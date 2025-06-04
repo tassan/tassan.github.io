@@ -4,8 +4,6 @@ date: 2025-06-04T16:41:30-03:00
 draft: false
 ---
 
-# Blog
-
 Welcome to my blog!
 
 Here I share experiences, practical tutorials, insights, and updates on software development, systems architecture, cloud computing, artificial intelligence, and tech trends.

@@ -4,8 +4,6 @@ date: 2025-06-04T16:41:30-03:00
 draft: false
 ---
 
-# Blog
-
 Bem-vindo ao meu blog!
 
 Aqui compartilho experiências, tutoriais práticos, reflexões e novidades sobre desenvolvimento de software, arquitetura de sistemas, computação em nuvem, inteligência artificial e tendências do universo tech.
